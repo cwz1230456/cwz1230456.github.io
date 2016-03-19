@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Vim 常用资源1111
+title: Vims 常用资源
 category: 读书
-tags: Vim1111
-keywords: Vim1111
+tags: Vims
+keywords: Vims
 ---
 
 ## 在粘贴代码时不启动自动缩进
