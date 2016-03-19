@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python 常用资源
-category: 资源
+category: 读书
 tags: Python
 keywords: Python
 description: 
