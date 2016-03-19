@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vims 常用资源
+title: Vim 常用
 category: 读书
 tags: Vims
 keywords: Vims
