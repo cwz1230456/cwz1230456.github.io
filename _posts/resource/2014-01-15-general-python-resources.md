@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python 常用资源
+title: Python 常用
 category: 读书
 tags: Python
 keywords: Python
