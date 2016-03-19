@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shell 常用资源111
+title: Shell 常用
 category: 读书
 tags: Shell11
 keywords: Shell11
