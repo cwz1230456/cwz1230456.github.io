@@ -12,9 +12,9 @@ rss_url: /pages/feed.xml
 filter: 'category'
 
 # Social account
-twitter: masonsuyan
+
 # weibo:    ID
-github: suyan
+github: cwz1230456
 # codepen:  username
 # dribbble: username
 
@@ -29,7 +29,7 @@ disqus:
 # google analytics 设置
 ga:
   id: UA-54767140-1
-  url: yansu.org
+  url: cwz1230456.github.io/
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
