@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Shell 常用资源
-category: 资源
-tags: Shell
-keywords: Shell
+title: Shell 常用资源111
+category: 读书
+tags: Shell11
+keywords: Shell11
 description: 
 ---
 
