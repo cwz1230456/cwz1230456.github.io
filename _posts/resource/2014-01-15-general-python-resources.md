@@ -6,7 +6,7 @@ tags: Python
 keywords: Python
 description: 
 ---
-
+## 区别
 
 ### 堆栈空间分配不同
     栈（操作系统）：由操作系统自动分配释放，存放函数的参数值，局部变量的值等。
