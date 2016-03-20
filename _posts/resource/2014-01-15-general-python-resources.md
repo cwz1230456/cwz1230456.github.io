@@ -1,38 +1,23 @@
 ---
 layout: post
-title: Python 常用
+title: 堆和栈的区别
 category: 小知识
 tags: Python
 keywords: Python
 description: 
 ---
 
-## 常用代码
+## 区别
 
-### 遍历对象
-    for key in a.__dict__:
-        print key,':',a.__dict__[key]
+### 堆栈空间分配不同
+    栈（操作系统）：由操作系统自动分配释放，存放函数的参数值，局部变量的值等。其操作方式类似于数据结构中的栈；
+    堆（操作系统）：由程序员分配释放， 若程序员不释放，程序结束时可能由OS回收，分配方式倒是类似于链表。
+### 堆栈缓存方式不同
+    栈使用一级缓存，被调用时处于存储空间中，调用完毕立即释放；
+    堆存在二级缓存中，调用这些对象速度要低一些。
 
-### 调试方法
-    assert False   //引发异常，观察错误界面
-    import logging
-    logging.info('')  //写日志
+### 堆和栈数据结构的区别
+    栈：先进后出的数据结构；
+    堆：可以被看成是一颗树，例如：堆排序
 
-### 获得当前时间
-    #时间戳
-    time.time()
-    #日期时间
-    time.ctime()
-    #iso时间
-    datetime.fromtimestamp(time.time()).isoformat()
-    #固定格式
-    time.strftime('%Y-%m-%d',time.localtime(time.time()))
-### 日期到时间戳
-    dateC=datetime.datetime(2010,6,6,8,14,59)
-    timestamp=time.mktime(dateC.timetuple())
-### 时间戳到日期
-    ltime=time.localtime(1237515355.0)
-    timeStr=time.strftime("%Y-%m-%d %H:%M:%S", ltime)
-### 之后的包从绝对位置导入
-    from __future__ import absolute_import
 
