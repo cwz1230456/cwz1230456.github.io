@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Python脚本--下载合并SAE日志
-category: 技术
-tags: Python
-keywords: Python,SAE,日志,合并,下载
+title: 堆和栈的区别
+category: 小知识
+tags: tips
+keywords: 小知识
 description: 
 ---
 
