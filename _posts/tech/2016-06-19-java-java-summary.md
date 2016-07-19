@@ -39,13 +39,50 @@ description:
 	package test;
 
 	public class test {
+		//构造函数 我的理解：用构造函数实例化类，使类以一个具体的形式出现，即，类：鸟，实例化化后：鸽子
 		public test(String name){
 			System.out.println("His name is " + name);
 		}
-	
-		public static void main(String args[]){
+		//类中的方法 我的理解：就是函数
+		public void setAge(int age){
+			testage = age;
+		}
+		//我的理解：main之下开始作出使用
+		public static void main(String args[])
+		{
 			test mytest = new test("Tommy");
+			mytest.setAge(16);
+			System.out.println("His name is " + mytest.testage);
 		}
 
 	}
+	或者：
+	
+	package test;
 
+	public class test {
+		int testage;
+		public test(String name){
+			System.out.println("His name is " + name);
+		}
+		
+		public void setAge(int age){
+			testage = age;
+		}
+		
+		public int getAge(){
+			System.out.println("His name is " + testage);
+			return testage;//习惯？
+		}
+		
+		public static void main(String args[])
+		{
+			test mytest = new test("Tommy");
+			mytest.setAge(16);
+			mytest.getAge();
+			//mytest.setAge(16);
+			//System.out.println("His name is " + mytest.testage);
+		}
+	
+	}
+	//实例化时所有的参数在主方法中输入即可，主方法以上都是泛泛的定义，无指定值
