@@ -3,7 +3,7 @@ layout: post
 title: WSGI学习
 category: 技术
 tags: Python
-description: 对我来说，一个东西真正掌握的表现方式是亲手试过，而且可以给别人讲清楚，这篇是我对WSGI的理解 
+description: 
 ---
 
 ## WSGI(Web Server Gateway Interface)
