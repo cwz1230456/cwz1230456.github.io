@@ -13,10 +13,10 @@ description:
 
 ## Soapui简要操作
   功能测试：导航面板New SoapUi Project ——> 导入WSDL文件 ——> 保存 ——> 生成测试包（如果需要导入，选Import Project）
-            
-            用例创建：test steps ——> 请求编辑器
-            
-            断言功能
+  
+  用例创建：test steps ——> 请求编辑器
+  
+  断言功能
   
   负载测试：相较于LoadRunner，SoapUI根据WSDL文件生成soap数据包，填入参数即可测试，且拥有数据监控和图表，但是LoadRunner的通标更丰富精准
 
