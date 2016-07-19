@@ -88,6 +88,11 @@ description:
 	
 ## 变量
 局部变量：在方法、构造方法中声明
-实例变量：在类中，方法之外声明。分为public的变量和private的变量，public：对子类可见，private：仅在该类可见
-例如：//这个成员变量对子类可见public String name;//私有变量，仅在该类可见private double salary;
-
+实例变量：
+①在类中，方法之外声明。
+②当一个对象被实例化之后，每个实例变量的值就跟着确定；
+③实例变量在对象创建的时候创建，在对象被销毁的时候销毁；
+④分为public的变量和private的变量，public：对子类可见，private：仅在该类可见；
+ 例如：//这个成员变量对子类可见public String name;//私有变量，仅在该类可见private double salary;
+⑥实例变量有默认值
+类变量：静态变量
