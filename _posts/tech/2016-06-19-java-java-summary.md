@@ -13,9 +13,13 @@ description:
 
 ## 宏观上看java特点（07-19）
 1.创建类，public class **
+
 2.创建主方法，public static void main（String args[]）
+
 3.foreach语句，遍历数组
+
 4.Java大小写敏感
+
 5.所有的Java 程序由public static void main(String args[])方法开始执行
 
 ### 设置自己的应用和下载参数
