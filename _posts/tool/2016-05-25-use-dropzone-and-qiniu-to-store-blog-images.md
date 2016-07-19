@@ -7,7 +7,7 @@ keywords: Dropzone,Qiniu,七牛,图床,博客
 description: 
 ---
 
-> 2015.12.20更新
+
 > - 此次更新用Python替代了Ruby，不需要再自己安装qiniu的ruby包，我已经集成在bundle里面
 > - 增加了一个pngpaste在包里，这样直接点击action会把剪切板内的图片上传 (已测试系统截图，QQ截图以及Monosnap)，原来的点击打开七牛官网功能在剪切版没有图片时生效
 > - 增加了图片重名检查
