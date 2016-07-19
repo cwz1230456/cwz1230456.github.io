@@ -14,19 +14,19 @@ description:
 ## 继承
 继承中最常使用的两个关键字是extends和implements。
 
-  // A.java
-  public class A {
-      private int i;
-      protected int j;
-   
-      public void func() {
-   
-      }
-  }
-  
-  // B.java
-  public class B extends A {
-  }
+    // A.java
+    public class A {
+        private int i;
+        protected int j;
+     
+        public void func() {
+     
+        }
+    }
+    
+    // B.java
+    public class B extends A {
+    }
 
 
 
