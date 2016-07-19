@@ -9,7 +9,7 @@ description:
 
 # java学习（一）
 
-> 开始学习java，重点与c与c++作对比，总结不同点
+> 学习java，重点与c与c++作对比，总结不同点
 
 ## 宏观上看java特点（07-19更新）
 1.创建类，public class **
@@ -83,8 +83,10 @@ description:
 			//mytest.setAge(16);
 			//System.out.println("His name is " + mytest.testage);
 		}
-	//实例化时所有的参数在主方法中输入即可，主方法以上都是泛泛的定义，无指定
 	}
+	
+	
+实例化时所有的参数在主方法中输入即可，主方法以上都是泛泛的定义，无指定
 	
 ## 变量
 局部变量：在方法、构造方法中声明
