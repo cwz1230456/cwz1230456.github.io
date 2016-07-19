@@ -10,6 +10,7 @@ description:
 # soapui总结
 
 > 学习soapui，对业财绩校协同平台进行WebServices接口进行测试（与SAP连接的接口）
+
 ## Soapui简要操作
   功能测试：导航面板New SoapUi Project ——> 导入WSDL文件 ——> 保存 ——> 生成测试包（如果需要导入，选Import Project）
             用例创建：test steps ——> 请求编辑器
