@@ -36,17 +36,16 @@ description:
 例子：Site site = new Site("Runoob")。
 
 ## 关于类和对象
-package test;
+	package test;
 
-public class test {
-	public test(String name){
-		System.out.println("His name is " + name);
-	}
+	public class test {
+		public test(String name){
+			System.out.println("His name is " + name);
+		}
 	
-	public static void main(String args[])
-	{
-		test mytest = new test("Tommy");
-	}
+		public static void main(String args[]){
+			test mytest = new test("Tommy");
+		}
 
-}
+	}
 
