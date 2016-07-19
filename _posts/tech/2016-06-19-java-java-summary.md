@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Python脚本--下载合并SAE日志
+title: java的特点及总结
 category: 技术
 tags: java
-keywords: Python,SAE,日志,合并,下载
+keywords: java,学习,总结
 description: 
 ---
 
-# Python脚本--下载合并SAE日志
+# java的特点及总结
 
 > 由于一些原因，需要SAE上站点的日志文件，从SAE上只能按天下载，下载下来手动处理比较蛋疼，尤其是数量很大的时候。还好SAE提供了API可以批量获得日志文件下载地址，刚刚写了python脚本自动下载和合并这些文件
 
