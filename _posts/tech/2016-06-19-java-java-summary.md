@@ -86,3 +86,13 @@ description:
 	
 	}
 	//实例化时所有的参数在主方法中输入即可，主方法以上都是泛泛的定义，无指定值
+	
+## 变量
+局部变量：在方法、构造方法中声明
+实例变量：在类中，方法之外声明。分为public的变量和private的变量，public：对子类可见，private：仅在该类可见
+例如：
+	// 这个成员变量对子类可见
+   	public String name;
+   	// 私有变量，仅在该类可见
+	 private double salary;
+
