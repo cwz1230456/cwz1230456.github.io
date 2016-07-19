@@ -26,4 +26,4 @@ http://www.open-open.com/doc/view/2cabd58c5da341fc8aaf1cda13f2c6c5
 
 http://wenku.baidu.com/link?url=g3LUEFm-L88-s4XoL_v7rrzgnGW0U-CuvHLLkUCkVojLLBKUggvTAtCtS8BMdOj_vm2FVg__03_5A-x5Pr_Cnpj7sk_iQQFV0-SnQWeP1yS
 
-## Soapui简要操作
+## Soapui相关知识总结
