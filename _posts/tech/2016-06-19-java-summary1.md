@@ -1,17 +1,17 @@
 ---
 layout: post
-title: java的特点及总结
+title: java学习（一）
 category: 技术
 tags: java
 keywords: java,学习,总结
 description: 
 ---
 
-# java的特点及总结
+# java学习（一）
 
 > 开始学习java，重点与c与c++作对比，总结不同点
 
-## 宏观上看java特点（07-19）
+## 宏观上看java特点（07-19更新）
 1.创建类，public class **
 
 2.创建主方法，public static void main（String args[]）
