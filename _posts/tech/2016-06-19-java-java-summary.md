@@ -11,8 +11,12 @@ description:
 
 > 开始学习java，重点与c与c++作对比，总结不同点
 
-## 调用API获得下载地址
-文档位置在[这里][1]
+## 宏观上看java特点（07-19）
+1.创建类，public class **
+2.创建主方法，public static void main（String args[]）
+3.foreach语句，遍历数组
+4.Java大小写敏感
+5.所有的Java 程序由public static void main(String args[])方法开始执行
 
 ### 设置自己的应用和下载参数
 请求中需要设置的变量如下
