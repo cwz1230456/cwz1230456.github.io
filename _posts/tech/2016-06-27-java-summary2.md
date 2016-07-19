@@ -29,6 +29,7 @@ description:
     // B.java
     public class B extends A {
     }
+
 类A其实是Object的子类，这里B类是继承A类的，B实例拥有A所有的成员变量，但是对于private的i，B类无访问权限
 
 ②implements
