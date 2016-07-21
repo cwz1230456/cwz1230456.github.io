@@ -11,14 +11,24 @@ description:
 
 > 学习java，重点与c与c++作对比，总结不同点
 
-## 多态
+## 关于数组的声明与操作、Arrays类
 
-多态是同一个行为具有多个不同表现形式或形态的能力，多态性是对象多种表现形式的体现。
-
-    现实中，比如我们按下 F1 键这个动作：
-    如果当前在 Flash 界面下弹出的就是 AS 3 的帮助文档；
-    如果当前在 Word 下弹出的就是 Word 帮助；
-    在 Windows 下弹出的就是 Windows 帮助和支持。
-    同一个事件发生在不同的对象上会产生不同的结果。
-
-多态存在的三个必要条件:①继承②重写③父类引用指向子类对象
+    import java.util.Arrays;//引入Arrays这个包
+    public class array_equal {
+    	public static void main(String[] args) {
+    		int[] array1 = {1,2,3};
+    		//数组声明，初始化时应初始化长度。
+    		//数组其实就是一个类
+    		int[] array2 = new int[10];
+    		
+    		for(int i=0; i<10; i++){
+    			array2[i] = i + 1;
+    		}
+    		/*
+    		for(int i=0; i<10; i++){
+    			System.out.println(array2[i]);			
+    		}
+    		*/
+    		System.out.println("array1和array2相等:" + Arrays.equals(array1,array2));
+    	}
+    }
