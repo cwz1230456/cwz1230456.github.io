@@ -32,3 +32,43 @@ description:
     		System.out.println("array1和array2相等:" + Arrays.equals(array1,array2));
     	}
     }
+
+## 关于Stream
+
+字符流
+
+    package stream;
+    import java.io.*;
+    public class read {
+    	public static void main(String args[]) throws IOException{
+    		char c;
+    	    // 使用 System.in 创建 BufferedReader 
+    	    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    	    System.out.println("Enter characters, 'q' to quit.");
+    	    // 读取字符
+    	    do {
+    	    	c = (char) br.read();
+    	        System.out.println(c);
+    	       }while(c != 'q');
+    	   }
+    }
+    
+字符串流
+
+    package stream;
+    import java.io.*;
+    public class read {
+    	public static void main(String args[]) throws IOException{
+    		//char c;
+    	    // 使用 System.in 创建 BufferedReader 
+    	    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    	    String str;
+    	    System.out.println("Enter a line.");
+    	    System.out.println("Enter 'end' to quit.");
+    	    // 读取字符
+    	    do {
+    	    	str = br.readLine();
+    	        System.out.println(str);
+    	      } while(!str.equals("end"));
+    	   }
+    }
