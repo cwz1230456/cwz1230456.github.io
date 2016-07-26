@@ -1,9 +1,9 @@
 ---
 layout: post
-title: IE-Debugger学习（调试JS文件）
-category: 技术
-tags: IE
-keywords: IE,学习,总结
+title: IE-Debugger学习（js调试）
+category: 小知识
+tags: tips
+keywords: 小知识
 description: 
 ---
 
